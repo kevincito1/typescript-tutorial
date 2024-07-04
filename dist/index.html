@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>typescript</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Invoices - Payments</h1>
+
+        <ul class="item-list"></ul>
+
+    </div>
+    <form class="new-item-form">
+        <div class="field">
+            <label for="number">Indica un numero:</label>
+            <input type="number"  id="number">
+        </div>
+        <div class="field">
+            <label for="name">Indica tu nombre:</label>
+            <input type="text" id="name">
+        </div>
+        <div class="field">
+            <label for="age">Ingresa tu edad:</label>
+            <input type="number" id="age">
+        </div>
+        <div class="field">
+            <label for="day">Indica un dia de la semana, siendo: 1 Lunes, 2 Martes, 3 Miercoles, 4 Jueves, 5 Viernes, 6 Sabado y 7 Domingo:</label>
+            <input type="number" id="day">
+        </div>
+        <div class="field">
+            <label for="nationality">Indique su nacionalidad</label>
+            <input type="text" id="nationality">
+        </div>
+        <button>Add</button>
+    </form>
+    <form class="second-item-form">
+        <h2>Número mayor</h2>
+        <p>Ingresa 3 números y te diremos cúal es el mayor.</p>
+        <div class="field">
+            <label for="number_1">Indica el Primer número</label>
+            <input type="number" id="number_1">
+        </div>
+        <div class="field">
+            <label for="number_2">Indica el Segundo número</label>
+            <input type="number" id="number_2">
+        </div>
+        <div class="field">
+            <label for="number_3">Indica el Tercer número</label>
+            <input type="number" id="number_3">
+        </div>
+        <button>Comprobar</button>
+    </form>
+    <form class="third-item-form">
+        <div class="field">
+            <h2>Verificador de Contraseñas!</h2>
+            <p>Vamos a validar si la contraseña que ingresas pasa la prueba.</p>
+            <label for="password">Ingresa la Contraseña</label>
+            <input type="password" id="password">
+            <br>
+            <label for="check_password">Repite la contraseña</label>
+            <input type="password" id="check_password">
+        </div>
+        <button>Comprobar</button>
+    </form>
+    <form class="forth-item-form">
+        <h2>Meses del año</h2>
+        <p>Escribe un número entre 1 y 12 para decirte a que mes corresponde</p>
+        <div class="field">
+            <label for="month">Indica el número</label>
+            <input type="number" id="month">
+        </div>
+        <button>Comprobar</button>
+    </form>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
